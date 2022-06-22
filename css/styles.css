@@ -67,6 +67,20 @@ li {
   text-decoration: wavy !important;
 }
 
+.container {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+.container-me {
+  flex: 1;
+}
+
+.container-cv {
+  flex: 0 0 800px;
+  clear: both;
+}
+
 /* 
 @media screen and (max-width: 500px) {
   .header a {
