@@ -36,27 +36,22 @@
 
 .logo {
   width: 70px;
-  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 .row {
-  position: relative;
 }
 .col {
-  position: absolute;
-  left: 100px;
-  top: 40px;
-  padding: 10px;
-  bottom: 5px;
 }
 
 .jobTime {
-  left: 110px;
-  position: absolute;
+  height: 20px;
 }
 
 .jobEmployer {
   margin-top: 5px;
+  gap: 2px;
+  display: grid;
 }
 
 .jobDescription {
@@ -65,20 +60,6 @@
 
 li {
   text-decoration: wavy !important;
-}
-
-.container {
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
-}
-.container-me {
-  flex: 1;
-}
-
-.container-cv {
-  flex: 0 0 800px;
-  clear: both;
 }
 
 /* 
