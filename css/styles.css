@@ -4,6 +4,24 @@
   padding: 40px 40px;
 }
 
+.link a:link,
+.link a:visited {
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.link a:hover,
+.link a:active {
+  background-color: rgb(22, 22, 22);
+  color: rgb(250, 250, 250);
+  border-radius: 50px;
+}
+
 .header a {
   float: left;
   color: rgb(221, 221, 221);
@@ -60,6 +78,13 @@
 
 li {
   text-decoration: wavy !important;
+}
+
+.welcome {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 15px;
+  font-size: 1.5rem;
 }
 
 /* 
