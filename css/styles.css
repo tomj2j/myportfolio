@@ -1,3 +1,23 @@
+a:link {
+  color: rgb(0, 140, 195);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 140, 195);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(4, 29, 39);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 140, 195);
+}
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -69,6 +89,11 @@ li {
 
 .cv__job__description {
   padding-top: 15px;
+}
+
+.project__pic {
+  width: 75%;
+  margin: 25px auto 25px auto;
 }
 
 @media all and (max-width: 800px) {
@@ -162,4 +187,25 @@ li {
   margin-top: 10px;
   margin-bottom: 5px;
   padding: 0;
+}
+
+.project__head {
+  background: linear-gradient(-45deg, #fc0000, #1e63db, #00ff22, #00591e);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  margin: 25px auto 25px auto;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
