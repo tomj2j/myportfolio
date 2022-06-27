@@ -57,23 +57,26 @@ li {
   margin-top: 15px;
 }
 
-.jobTime {
+.cv__job__ime {
   height: 20px;
 }
 
-.jobEmployer {
+.cv__job__employer {
   margin-top: 5px;
   gap: 2px;
   display: grid;
 }
 
-.jobDescription {
+.cv__job__description {
   padding-top: 15px;
 }
 
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
+  }
+  .skills {
+    margin: 0;
   }
 }
 
@@ -97,8 +100,66 @@ li {
     text-align: center;
     padding: 10px;
   }
+  .skills {
+    margin: 0;
+  }
+}
+.structure__me {
+  padding: 25px;
+  display: flex;
+  background: linear-gradient(-45deg, #cac7c7, #1e63db, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 25s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.structure__me__info {
+  margin: 90px auto 25px 25px;
+}
+
+.structure__me__info p {
+  font-size: 5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .me__pic {
-  width: 20%;
+  width: 30%;
+  height: 30%;
+  border-radius: 53px;
+}
+.applications {
+  margin: 25 25 25 25;
+}
+.applications__logo {
+  width: 9vw;
+}
+
+.skills {
+  background-color: rgb(1, 68, 92);
+  padding: 25px;
+  color: aliceblue;
+  text-decoration: solid;
+  font-size: large;
+}
+.skills__inner {
+  margin: 50px auto 50px auto;
+}
+
+.progress {
+  margin-top: 10px;
+}
+.skills__title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0;
 }
