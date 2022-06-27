@@ -162,6 +162,27 @@ li {
   height: 30%;
   border-radius: 53px;
 }
+.welcome__message {
+  margin: 25 25 25 25;
+  padding: 25;
+  background-image: url("/img/bgimage_way.jpeg");
+  background-color: #cac7c7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.welcome__message__text {
+  font-size: larger;
+  background-color: #222121e2;
+  padding: 15px;
+}
+.welcome__message__text span {
+  text-decoration: underline;
+}
+
 .applications {
   margin: 25 25 25 25;
 }
@@ -185,7 +206,7 @@ li {
   font-size: large;
 }
 .skills__inner {
-  margin: 50px auto 50px auto;
+  margin: 25px 30% 50px auto;
 }
 
 .progress {
