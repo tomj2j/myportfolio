@@ -169,6 +169,14 @@ li {
   width: 9vw;
 }
 
+.social__links {
+  margin: 25;
+}
+
+.social__logo {
+  width: 9vw;
+}
+
 .skills {
   background-color: rgb(1, 68, 92);
   padding: 25px;
