@@ -165,7 +165,7 @@ li {
 .welcome__message {
   margin: 25 25 25 25;
   padding: 25;
-  background-image: url("/img/bgimage_way.jpeg");
+  background-image: url("./img/bgimage_way.jpeg");
   background-color: #cac7c7;
   background-attachment: fixed;
   background-position: center;
