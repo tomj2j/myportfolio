@@ -171,20 +171,31 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 13px;
   color: aliceblue;
 }
 
 .welcome__message__text {
   font-size: larger;
   background-color: #222121e2;
+  border-radius: 13px;
   padding: 15px;
 }
 .welcome__message__text span {
   text-decoration: underline;
 }
 
-.applications {
-  margin: 25 25 25 25;
+.applications,
+.social__links {
+  margin: 25px;
+  display: grid;
+  place-items: center;
+  justify-content: space-around;
+}
+.applications__imgs {
+  display: grid;
+  place-items: center;
+  justify-content: space-around;
 }
 .applications__logo {
   width: 9vw;
