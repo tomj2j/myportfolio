@@ -22,24 +22,25 @@ a:active {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-
+  border-radius: 13px;
   list-style: none;
-  margin: 0;
   background: rgb(0, 37, 49);
+  margin: 10px;
 }
 
 .navigation a,
 li {
   text-decoration: none;
   display: block;
-  padding: 0.5vh;
+  margin: 5px;
   color: rgb(255, 255, 255);
+  font-size: large;
 }
 
 .navigation a:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 37, 49);
-  border-radius: 30px;
+  border-radius: 13px;
 }
 
 .header a {
@@ -109,12 +110,12 @@ li {
   .navigation {
     flex-flow: column wrap;
     padding: 0;
+    margin: 0;
   }
   .navigation a {
     text-align: center;
-    padding: 5px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    font-size: medium;
   }
   .navigation li:last-of-type a {
     border-bottom: none;
@@ -127,14 +128,19 @@ li {
   }
   .skills {
     margin: 0;
+    border-radius: 13px;
+  }
+  .me__pic {
+    display: none;
   }
 }
 .structure__me {
-  padding: 25px;
+  margin-bottom: 10px;
   display: flex;
   background: linear-gradient(-45deg, #cac7c7, #1e63db, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
+  border-radius: 13px;
 }
 @keyframes gradient {
   0% {
@@ -149,21 +155,22 @@ li {
 }
 
 .structure__me__info {
-  margin: 90px auto 25px 25px;
+  margin: 20px auto 5px auto;
 }
 
 .structure__me__info p {
   font-size: 5vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #cac7c7;
 }
 
 .me__pic {
-  width: 30%;
-  height: 30%;
+  width: 50px;
+  height: auto;
   border-radius: 53px;
+  margin: auto 5 auto 5;
 }
 .welcome__message {
-  margin: 25 25 25 25;
   padding: 25;
   background-image: url("./img/bgimage_way.jpeg");
   background-color: #cac7c7;
@@ -215,6 +222,7 @@ li {
   color: aliceblue;
   text-decoration: solid;
   font-size: large;
+  border-radius: 13px;
 }
 .skills__inner {
   margin: 25px 30% 50px auto;
