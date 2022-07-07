@@ -137,9 +137,9 @@ li {
 .structure__me {
   margin-bottom: 10px;
   display: flex;
-  background: linear-gradient(-45deg, #cac7c7, #1e63db, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #cac7c7, #1e63db, #0fb43b, #0219b0);
   background-size: 400% 400%;
-  animation: gradient 25s ease infinite;
+  animation: gradient 15s ease infinite;
   border-radius: 13px;
 }
 @keyframes gradient {
@@ -172,7 +172,6 @@ li {
 }
 .welcome__message {
   padding: 25;
-  background-image: url("./img/bgimage_way.jpeg");
   background-color: #cac7c7;
   background-attachment: fixed;
   background-position: center;
@@ -180,11 +179,12 @@ li {
   background-size: cover;
   border-radius: 13px;
   color: aliceblue;
+  margin-bottom: 15px;
 }
 
 .welcome__message__text {
   font-size: larger;
-  background-color: #222121e2;
+  background-color: rgb(1, 68, 92);
   border-radius: 13px;
   padding: 15px;
 }
@@ -223,13 +223,12 @@ li {
   text-decoration: solid;
   font-size: large;
   border-radius: 13px;
-}
-.skills__inner {
-  margin: 25px 30% 50px auto;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .progress {
-  margin-top: 10px;
+  margin: auto 15%;
 }
 .skills__title {
   margin-top: 10px;
