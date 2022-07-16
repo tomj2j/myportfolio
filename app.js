@@ -13,8 +13,7 @@ const tick = () => {
   const html = `
     <span>  </span>
     <span>${h}</span> : 
-    <span>${m}</span> :
-    <span>${s}</span>
+    <span>${m}</span>
     `;
 
   // this will send the html to the innerHTML of the class clock
